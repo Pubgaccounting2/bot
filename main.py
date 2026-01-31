@@ -1,25 +1,3 @@
-# =============================================================================
-# ADDICTION SUPPORT BOT — Release v1.1.0
-# Date: 2026-01-31
-# 
-# Telegram-бот поддержки и самоотслеживания в работе с зависимостями.
-# Технологии: Python 3.11+, aiogram v3, aiosqlite, apscheduler
-#
-# CHANGELOG v1.1.0:
-#   - Fixed: get_or_create_user() теперь возвращает актуальные данные
-#   - Fixed: Кнопка "Назад" в настройках зависимостей
-#   - Fixed: format_calendar() учитывает timezone пользователя
-#   - Fixed: Валидация timezone при создании ZoneInfo
-#   - Fixed: Безопасный дефолт ADMIN_USER_ID (0 = никто)
-#   - Improved: Консистентная обработка TelegramBadRequest
-#   - Improved: Увеличен delay в broadcast (0.1s)
-#   - Improved: AntiFlood с автоочисткой
-#   - Improved: UX тексты — теплее и компактнее
-#   - Improved: Прогресс с визуальными символами
-#   - Added: Валидация reminder_time формата
-#   - Added: tzdata в зависимости (для Windows)
-# =============================================================================
-
 import asyncio
 import json
 import logging
